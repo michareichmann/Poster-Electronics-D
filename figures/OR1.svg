@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Joshua D. Griisser in April 2007        -->
+<!-- This work is released into the public domain       -->
+<!-- Markup constructed by hand using Notepad           -->
+<!-- Drawing is to scale: 10px = 1mm (on 160x224 grid)  -->
+<!-- Viewport is magnified 2x by default for visibility -->
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.0"
+   width="320px"
+   height="448px"
+   viewBox="0 0 160 224"
+   id="CMOS 4071 Quad 2-Input OR Gate Diagram">
+  <defs>
+     <path
+        fill="none"
+        stroke="#000000"
+        stroke-width="2.5"
+        d="M 0.0,0.0 h +18.0 v +12.0 h -18.0 Z"
+        id="Pin" />
+  </defs>
+  <g transform="translate (47.6, 14.5)">
+     <use x="-18.0" y="15.3"  xlink:href="#Pin" />
+     <use x="-18.0" y="40.7"  xlink:href="#Pin" />
+     <use x="-18.0" y="66.1"  xlink:href="#Pin" />
+     <use x="-18.0" y="91.5"  xlink:href="#Pin" />
+     <use x="-18.0" y="116.9" xlink:href="#Pin" />
+     <use x="-18.0" y="142.3" xlink:href="#Pin" />
+     <use x="-18.0" y="167.7" xlink:href="#Pin" />
+     <use x="64.8"  y="15.3"  xlink:href="#Pin" />
+     <use x="64.8"  y="40.7"  xlink:href="#Pin" />
+     <use x="64.8"  y="66.1"  xlink:href="#Pin" />
+     <use x="64.8"  y="91.5"  xlink:href="#Pin" />
+     <use x="64.8"  y="116.9" xlink:href="#Pin" />
+     <use x="64.8"  y="142.3" xlink:href="#Pin" />
+     <use x="64.8"  y="167.7" xlink:href="#Pin" />
+     <text
+       font-family="monospace"
+       font-weight="bold"
+       font-size="8"
+       fill="#000000">
+         <tspan x="-11.4" y="23.8">1</tspan>
+         <tspan x="-11.4" y="49.2">2</tspan>
+         <tspan x="-11.4" y="74.6">3</tspan>
+         <tspan x="-11.4" y="100.0">4</tspan>
+         <tspan x="-11.4" y="125.4">5</tspan>
+         <tspan x="-11.4" y="150.8">6</tspan>
+         <tspan x="-11.4" y="176.2">7</tspan>
+         <tspan x="69.0"  y="23.8">14</tspan>
+         <tspan x="69.0"  y="49.2">13</tspan>
+         <tspan x="69.0"  y="74.6">12</tspan>
+         <tspan x="69.0"  y="100.0">11</tspan>
+         <tspan x="69.0"  y="125.4">10</tspan>
+         <tspan x="71.4"  y="150.8">9</tspan>
+         <tspan x="71.4"  y="176.2">8</tspan>
+         <tspan x="-31.4" y="23.8">A1</tspan>
+         <tspan x="-31.4" y="49.2">B1</tspan>
+         <tspan x="-31.4" y="74.6">Q1</tspan>
+         <tspan x="-31.4" y="100.0">Q2</tspan>
+         <tspan x="-31.4" y="125.4">B2</tspan>
+         <tspan x="-31.4" y="150.8">A2</tspan>
+         <tspan x="-36.2" y="176.2">VSS</tspan>
+         <tspan x="86.6"  y="23.8">VDD</tspan>
+         <tspan x="86.6"  y="49.2">A4</tspan>
+         <tspan x="86.6"  y="74.6">B4</tspan>
+         <tspan x="86.6"  y="100.0">Q4</tspan>
+         <tspan x="86.6"  y="125.4">Q3</tspan>
+         <tspan x="86.6"  y="150.8">B3</tspan>
+         <tspan x="86.6"  y="176.2">A3</tspan>
+     </text>
+     <path
+        fill="none"
+        stroke="#000000"
+        stroke-width="2.5"
+        d="M 0.0,0.0
+           h +22.4
+           c +5.0,+12.5 +15.0,+12.5 +20.0,0.0
+           h +22.4
+           v +195.0
+           h -64.8
+           Z"
+     />
+     <path
+        fill="none"
+        stroke="#000000"
+        stroke-width="1.0"
+        d="M 10.4,40.7
+           c +5.5,+2.9 +13.5,+2.9 +19.0,+0.0
+           v +8.8
+           c -0.8,+7.1 -5.7,+11.9 -9.5,+13.5
+           c -3.8,-1.6 -8.7,-6.4 -9.5,-13.5
+           Z
+           M 35.4,66.1
+           c +5.5,+2.9 +13.5,+2.9 +19.0,+0.0
+           v +8.8
+           c -0.8,+7.1 -5.7,+11.9 -9.5,+13.5
+           c -3.8,-1.6 -8.7,-6.4 -9.5,-13.5
+           Z
+           M 10.4,128.9
+           c +5.5,-2.9 +13.5,-2.9 +19.0,+0.0
+           v -8.8
+           c -0.8,-7.1 -5.7,-11.9 -9.5,-13.5
+           c -3.8,+1.6 -8.7,+6.4 -9.5,+13.5
+           Z
+           M 35.4,154.3
+           c +5.5,-2.9 +13.5,-2.9 +19.0,+0.0
+           v -8.8
+           c -0.8,-7.1 -5.7,-11.9 -9.5,-13.5
+           c -3.8,+1.6 -8.7,+6.4 -9.5,+13.5
+           Z"
+     />
+     <path
+        fill="none"
+        stroke="#000000"
+        stroke-width="1.0"
+        d="M 0.0,72.1   h +19.9 v -8.8
+           M 0.0,97.5   h +19.9 v +8.8
+           M 64.8,97.5  h -19.9 v -8.8
+           M 64.8,122.9 h -19.9 v +8.8
+           M 0.0,21.3   h +24.9 v +21.4
+           M 0.0,148.3  h +24.9 v -21.4
+           M 64.8,46.7  h -24.9 v +21.4
+           M 64.8,173.7 h -24.9 v -21.4
+           M 0.0,46.7   h +5.7  v -16.0 h +9.2 v +12.0
+           M 0.0,122.9  h +5.7  v +16.0 h +9.2 v -12.0
+           M 64.8,72.1  h -5.7  v -16.0 h -9.2 v +12.0
+           M 64.8,148.3 h -5.7  v +16.0 h -9.2 v -12.0"
+     />
+  </g>
+</svg>

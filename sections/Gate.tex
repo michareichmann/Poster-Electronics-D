@@ -1,0 +1,31 @@
+\def\da{.06}
+\def\db{.047}
+\posterbox{Logic Gate}{
+	In electronics, a logic gate is a physical device implementing a Boolean function. It performs a logical operation on one or more binary inputs and produces a single binary output. Logic gates are primarily implemented using diodes or transistors acting as electronic switches, but can also be constructed using other parts. Logic gates can be cascaded in the same way that Boolean functions can be composed, allowing the construction of a physical model of all of Boolean logic, and therefore, all of the algorithms and mathematics that can be described with Boolean logic.
+	\begin{table}\centering
+		\begin{tabular}{c|c|c|c|>{\centering\arraybackslash} p{3ex}|>{\centering\arraybackslash} p{3ex}|>{\centering\arraybackslash} p{3ex}}
+			\textbf{Type}	& \textbf{Symbol}	& \textbf{Pinout}	& \textbf{Algebra}	& \textbf{A}	& \textbf{B}	& \textbf{Q}\\\hline&&&&&\\[-1em]
+			\multirow{4}{*}{NAND} & \multirow{4}{*}{\pic{l}{\db}{NAND}} & \multirow{4}{*}{\pic{l}{\da}{NAND1}}	& \multirow{4}{*}{$\overline{A\wedge B}$}	&0&0&1\\
+			&&&&0&1&1\\
+			&&&&1&0&1\\
+			&&&&1&1&0\\\hline&&&&&\\[-1em]
+% 			\multirow{4}{*}{NOR} & \multirow{4}{*}{\pic{l}{\db}{NOR}} & \multirow{4}{*}{\pic{l}{.055}{NOR1}}		& \multirow{4}{*}{$\overline{A\vee B}$}	&0&0&1\\
+% 			&&&&01&0\\
+% 			&&&&1&0&0\\
+% 			&&&&1&1&0\\\hline
+			\multirow{4}{*}{AND} & \multirow{4}{*}{\pic{l}{\db}{AND}} & \multirow{4}{*}{\pic{l}{\da}{AND1}}		& \multirow{4}{*}{$A\wedge B$}	&0&0&1\\
+			&&&&0&1&0\\
+			&&&&1&0&0\\
+			&&&&1&1&0\\\hline
+			\multirow{4}{*}{OR} & \multirow{4}{*}{\pic{l}{\db}{OR}} & \multirow{4}{*}{\pic{l}{\da}{OR1}}		& \multirow{4}{*}{$A \vee B$}	&0&0&1\\
+			&&&&0&1&0\\
+			&&&&1&0&0\\
+			&&&&1&1&0\\\hline&&&&&\\[-1em]
+			\multirow{4}{*}{XOR} & \multirow{4}{*}{\pic{l}{\db}{XOR}} & \multirow{4}{*}{\pic{l}{\da}{XOR1}}		& \multirow{4}{*}{$A \veebar B$}	
+					&	0	&	0	&	0\\
+			&&&	&	0	&	1	&	1\\
+			&&&	&	1	&	0	&	1\\
+			&&&	&	1	&	1	&	0
+		\end{tabular}
+	\end{table}\noindent
+}
