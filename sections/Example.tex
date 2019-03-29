@@ -1,10 +1,11 @@
 \posterbox{Example - Full Adder}{
 	An adder is a digital circuit that performs addition of numbers. A full adder adds binary numbers and accounts for values carried in as well as out. A one-bit full-adder adds three one-bit numbers, often written as $A$, $B$, and $C_{\z{in}}$; $A$ and $B$ are the operands, and $C_{\z{in}}$ is a bit carried in from the previous less-significant stage. The circuit produces a two-bit output: Output carry and sum typically represented by the signals $C_{\z{out}}$ and $S$, where the sum equals $2C_{\z{out}} + S$.\\
+	\vspace*{2ex}
 	\begin{minipage}{.63\textwidth}
-		\fig{.12}{Adder}[Logic diagram of a full adder.]
+		\vspace*{40pt}\fig{.11}{Adder}[Logic diagram of a full adder.]
 	\end{minipage}
 	\begin{minipage}{.32\textwidth}
-		\begin{table}\centering\footnotesize
+		\begin{table}\centering\footnotesize\small
 			\begin{tabular}{>{\centering\arraybackslash} p{3ex}|>{\centering\arraybackslash} p{3ex}|>{\centering\arraybackslash} p{3ex}|>{\centering\arraybackslash} p{3ex}|>{\centering\arraybackslash} p{3ex}}
 				\multicolumn{3}{c|}{\textbf{IN}} & \multicolumn{2}{c}{\textbf{OUT}}\\\hline&&&&\\[-1em]
 				$A$	& $B$	& $C_{\z{in}}$	& $S$	& $C_{\z{out}}$		\\\hline&&&&\\[-1em]
@@ -20,5 +21,5 @@
 			\caption{Logic table.}
 		\end{table}
 	\end{minipage}
-	\fig{.148}{Adder_bb}[Bread board diagram of a full adder.]
+	\fig{.152}{Adder_bb}[Bread board diagram of a full adder.]
 }
